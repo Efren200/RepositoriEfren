@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    background-color: #d0fa13;
+}
+body{
+    background-color: #d0fa13;
+}
+header{
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    border: 2px solid #419F00;
+}
+header>h1{
+    color: #d0fa13;
+    text-align: center;
+    display: inline-block;
+    font-size: 4em;
+    font-family: Verdana;
+    text-shadow: 3px  0px 0px black,
+               0px  3px 0px black,
+              -3px  0px 0px black,
+               0px -3px 0px black;
+}
+
+#logo{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+footer{
+    font-size: 0.7em;
+    color: white;
+    text-align: center;
+    background-color: #419F00;
+    border-top: 6px black solid;
+    padding:15px 0px 15px;
+}
+
+form{
+    border: 2px solid #419F00;
+    width: 45%;
+    margin: 20px auto;
+    padding: 35px;
+    text-align: left;
+    background-color: white;
+}
+
+label{
+    font-size: 18;
+    color:  black;
+    display: block;
+    padding: 20px 0px 0px 0px;
+}
+#nombre{
+    background-color: #d0fa13;
+    border-width: inherit;
+    border-bottom-width: medium;
+    border-bottom-color: #419F00;
+    padding: 10px;
+    width: 40%;
+}
+
+input{
+    background-color: #d0fa13;
+    border-width: inherit;
+    border-color: black;
+    border-bottom-width: medium;
+    border-bottom-color: #419F00;
+    padding: 10px;
+    width: 10%;
+}
+
+input:required{
+    color: orangered;
+}
+select:required{
+    color: orangered;
+}
+textarea:required{
+    color: orangered;
+}
+
+button{
+    border-radius: 10%;
+    border-color: black;
+    color: black;
+    background-color: #419F00;
+    text-decoration: underline;
+    display: block;
+    margin: 30px auto;
+    width: 15%
+}
+
